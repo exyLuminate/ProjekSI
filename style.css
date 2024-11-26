@@ -1,0 +1,39 @@
+/* Card styling untuk daftar dan detail resep */
+.recipe-list, .recipe-detail {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Tampilan bahan dan instruksi */
+#ingredient-list li, #instruction-list li {
+    margin-bottom: 0.5rem;
+}
+
+/* Heading kecil untuk bahan dan instruksi */
+#ingredients h3, #instructions h3 {
+    margin-top: 1.5rem;
+    color: #333;
+}
+
+/* Tambahan margin dan padding */
+.container {
+    padding: 1rem;
+}
+
+/* Detail resep */
+.recipe-detail {
+    overflow-x: hidden; /* Menyembunyikan elemen yang melampaui batas kontainer */
+    padding-right: 15px; /* Memberikan ruang tambahan di kanan kontainer jika ada overflow */
+    max-height: 60vh; /* Batas maksimal tinggi (sesuaikan sesuai kebutuhan) */
+    overflow-y: auto; /* Aktifkan scrollbar vertikal jika konten meluap */
+}
+
+#ingredients, #instructions {
+    max-height: 400px; /* Menambahkan batas maksimal tinggi untuk daftar bahan dan instruksi */
+    overflow-y: auto; /* Menambahkan scroll jika daftar bahan atau instruksi terlalu panjang */
+}
+
+.recipe-detail ul,
+.recipe-detail ol {
+    padding-left: 20px; /* Memberikan jarak untuk indentasi pada list */
+}
