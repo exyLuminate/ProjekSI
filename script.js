@@ -20,12 +20,13 @@ const recipes = [
             "Goreng ayam hingga kecokelatan, angkat dan tiriskan.",
             "Goreng adonan kremesan hingga garing, taburkan di atas ayam goreng."
         ],
-        history: "Ayam Goreng Kremes adalah sajian ayam goreng dengan taburan kremesan yang gurih dan renyah, khas dari Jawa Tengah."
+        history: "Ayam Goreng Kremes adalah sajian ayam goreng dengan taburan kremesan yang gurih dan renyah, khas dari Jawa Tengah.",
+        video: "https://youtu.be/fPXOjA5UlzQ?si=0-NDMctK0tDrolPS"
     },
     {
-        "name": "Bakmi",
-        "image": "images/bakmi.jpg",
-        "ingredients": [
+        name: "Bakmi",
+        image: "images/bakmi.jpg",
+        ingredients: [
             "200 gram mie basah",
             "50 gram ayam cincang",
             "2 siung bawang putih, cincang",
@@ -34,13 +35,14 @@ const recipes = [
             "2 batang daun bawang, iris",
             "100 ml kaldu ayam"
         ],
-        "instructions": [
+        instructions: [
             "Rebus mie basah sebentar, tiriskan.",
             "Tumis bawang putih hingga harum, masukkan ayam cincang.",
             "Tambahkan kecap manis, merica, dan kaldu ayam, masak hingga matang.",
             "Tuang campuran ayam di atas mie, taburi daun bawang. Sajikan dengan sambal."
         ],
-        "history": "Bakmi adalah adaptasi masakan Tionghoa yang menjadi favorit banyak orang di Indonesia."
+        history: "Bakmi adalah adaptasi masakan Tionghoa yang menjadi favorit banyak orang di Indonesia.",
+        video: "https://www.youtube.com/watch?v=KFMUI9F56rA"
     },    
     {
         name: "Bakwan Sayur",
@@ -62,12 +64,13 @@ const recipes = [
             "Goreng adonan di minyak panas hingga kuning keemasan.",
             "Bakwan sayur siap disajikan selagi hangat."
         ],
-        history: "Bakwan Sayur adalah gorengan khas Indonesia yang sering dijumpai sebagai makanan jalanan atau teman makan nasi."
+        history: "Bakwan Sayur adalah gorengan khas Indonesia yang sering dijumpai sebagai makanan jalanan atau teman makan nasi.",
+        video: "https://www.youtube.com/watch?v=ScgIvyUMuDo"
     },
     {
-        "name": "Capcay",
-        "image": "images/capcay.jpg",
-        "ingredients": [
+        name: "Capcay",
+        image: "images/capcay.jpg",
+        ingredients: [
             "100 gram wortel, iris",
             "100 gram kembang kol",
             "100 gram sawi hijau",
@@ -77,13 +80,14 @@ const recipes = [
             "1 sendok teh garam",
             "100 ml air"
         ],
-        "instructions": [
+        instructions: [
             "Panaskan minyak, tumis bawang putih hingga harum.",
             "Masukkan udang, aduk hingga berubah warna.",
             "Tambahkan wortel, kembang kol, dan sawi hijau, masak hingga layu.",
             "Tambahkan saus tiram, garam, dan air, masak hingga matang. Sajikan."
         ],
-        "history": "Capcay adalah hidangan sayur tumis yang berasal dari tradisi kuliner Tionghoa-Indonesia."
+        history: "Capcay adalah hidangan sayur tumis yang berasal dari tradisi kuliner Tionghoa-Indonesia.",
+        video: "https://www.youtube.com/watch?v=YxMqHgQxsW0"
     },    
     {
         name: "Es Campur",
@@ -103,12 +107,13 @@ const recipes = [
             "Aduk rata, tambahkan es serut di atasnya.",
             "Es campur siap disajikan untuk menyegarkan hari Anda!"
         ],
-        history: "Es Campur adalah minuman khas Indonesia yang sering dinikmati saat cuaca panas atau di bulan Ramadan."
+        history: "Es Campur adalah minuman khas Indonesia yang sering dinikmati saat cuaca panas atau di bulan Ramadan.",
+        video: "https://www.youtube.com/watch?v=Zz-ckrIg0jY"
         },
         {
-            "name": "Mie Goreng",
-            "image": "images/mie-goreng.jpeg",
-            "ingredients": [
+            name: "Mie Goreng",
+            image: "images/mie-goreng.jpeg",
+            ingredients: [
                 "200 gram mie telur",
                 "2 sendok makan kecap manis",
                 "1 sendok makan saus tiram",
@@ -118,7 +123,7 @@ const recipes = [
                 "50 gram ayam, potong kecil",
                 "100 gram sayuran (kol, wortel, sawi)"
             ],
-            "instructions": [
+            instructions: [
                 "Rebus mie hingga matang, tiriskan dan beri sedikit minyak agar tidak lengket.",
                 "Panaskan minyak, tumis bawang putih hingga harum.",
                 "Masukkan ayam, aduk hingga matang, lalu sisihkan di pinggir wajan.",
@@ -126,7 +131,8 @@ const recipes = [
                 "Beri kecap manis, saus tiram, merica, dan aduk rata.",
                 "Masukkan sayuran, masak hingga layu. Angkat dan sajikan."
             ],
-            "history": "Mie goreng adalah hidangan praktis yang populer di seluruh Indonesia, sering dijadikan menu sarapan atau makan malam sederhana."
+            history: "Mie goreng adalah hidangan praktis yang populer di seluruh Indonesia, sering dijadikan menu sarapan atau makan malam sederhana.",
+            video: "https://www.youtube.com/watch?v=E3VflxR5_hI"
         },
         {
             name: "Nasi Goreng",
@@ -149,7 +155,8 @@ const recipes = [
                 "Masak hingga nasi goreng matang dan bumbu meresap.",
                 "Sajikan nasi goreng dengan pelengkap seperti kerupuk dan acar."
             ],
-            history: "Nasi goreng adalah hidangan sederhana yang populer di Indonesia. Hidangan ini sering disajikan sebagai sarapan atau makan malam praktis."
+            history: "Nasi goreng adalah hidangan sederhana yang populer di Indonesia sebagai sarapan.",
+            video: "https://youtube.com/shorts/Gq8HQtOlZcY?si=YxGcuowc0av_y0UA"
         },
         {
             name: "Onde-Onde",
@@ -158,7 +165,7 @@ const recipes = [
                 "250 gram tepung ketan",
                 "100 ml air daun pandan suji",
                 "1/4 sendok teh air abu jawa",
-                "150 gram kelapa parut kasar",
+                "100 gram wijen",
                 "100 gram kacang hijau, kupas kulitnya",
                 "100 gram gula pasir"
             ],
@@ -167,10 +174,11 @@ const recipes = [
                 "Campurkan tepung ketan dengan air daun pandan dan air abu jawa, aduk rata hingga kalis.",
                 "Ambil sejumput adonan ketan, pipihkan, beri kacang hijau halus di tengahnya, bulatkan dan rapatkan.",
                 "Rebus bola ketan dalam air mendidih hingga bola onde-onde mengapung.",
-                "Gulingkan bola onde-onde yang telah matang dalam kelapa parut kasar.",
+                "Gulingkan bola onde-onde yang telah matang dalam wijen.",
                 "Onde-onde siap disajikan."
             ],
-            history: "Onde-Onde adalah kue tradisional Indonesia yang terbuat dari tepung ketan dengan isi kacang hijau dan dilapisi kelapa parut. Kue ini biasanya disajikan sebagai camilan saat acara tertentu."
+            history: "Onde-Onde adalah kue tradisional Indonesia yang terbuat dari tepung ketan dengan isi kacang hijau dan dilapisi wijen. Kue ini biasanya disajikan sebagai camilan saat acara tertentu.",
+            video: "https://www.youtube.com/watch?v=ohy9IKPe9Eo"
         },
         {
             name: "Pempek Palembang",
@@ -192,7 +200,8 @@ const recipes = [
                 "Goreng pempek sebelum disajikan.",
                 "Nikmati dengan kuah cuko khas Palembang."
             ],
-            history: "Pempek adalah makanan khas Palembang yang terbuat dari ikan dan sagu. Makanan ini selalu disajikan dengan saus cuko yang asam pedas."
+            history: "Pempek adalah makanan khas Palembang yang terbuat dari ikan dan sagu. Makanan ini selalu disajikan dengan saus cuko yang asam pedas.",
+            video: "https://www.youtube.com/watch?v=kkzFu0AikBE"
         },
         {
             name: "Pisang Goreng Keju",
@@ -212,7 +221,8 @@ const recipes = [
                 "Goreng pisang dalam minyak panas hingga kuning keemasan.",
                 "Angkat, tiriskan, dan tambahkan keju parut di atasnya sebelum disajikan."
             ],
-            history: "Pisang Goreng Keju adalah inovasi modern dari pisang goreng tradisional, sering menjadi camilan favorit keluarga."
+            history: "Pisang Goreng Keju adalah inovasi modern dari pisang goreng tradisional, sering menjadi camilan favorit keluarga.",
+            video: "https://www.youtube.com/watch?v=EnqOO7QuW48"
         },
         {
             name: "Rendang Daging",
@@ -236,7 +246,8 @@ const recipes = [
                 "Masak hingga santan mengental dan bumbu meresap ke dalam daging.",
                 "Rendang siap disajikan."
             ],
-            history: "Rendang adalah makanan khas Minangkabau yang diakui sebagai salah satu makanan terenak di dunia. Rendang dimasak dengan waktu lama sehingga menghasilkan rasa yang kaya dan mendalam."
+            history: "Rendang adalah makanan khas Minangkabau yang diakui sebagai salah satu makanan terenak di dunia. Rendang dimasak dengan waktu lama sehingga menghasilkan rasa yang kaya dan mendalam.",
+            video: "https://www.youtube.com/watch?v=qdtflnUxCDs"
         },
         {
             name: "Sate Ayam",
@@ -259,12 +270,13 @@ const recipes = [
                 "Campurkan kacang tanah halus dengan kecap manis untuk saus.",
                 "Sajikan sate ayam dengan lontong dan saus kacang."
             ],
-            history: "Sate Ayam adalah salah satu kuliner khas Indonesia yang terkenal di seluruh dunia. Sate ini biasanya disajikan dengan saus kacang yang gurih dan nikmat."
+            history: "Sate Ayam adalah salah satu kuliner khas Indonesia yang terkenal di seluruh dunia. Sate ini biasanya disajikan dengan saus kacang yang gurih dan nikmat.",
+            video: "https://www.youtube.com/watch?v=sjbts1yRabA"
         },
         {
-            "name": "Sayur Asam",
-            "image": "images/sayur-asam.jpg",
-            "ingredients": [
+            name: "Sayur Asam",
+            image: "images/sayur-asam.jpg",
+            ingredients: [
                 "100 gram kacang panjang",
                 "100 gram labu siam",
                 "1 buah jagung manis",
@@ -272,17 +284,18 @@ const recipes = [
                 "1 liter air",
                 "1 sendok makan asam jawa"
             ],
-            "instructions": [
+            instructions: [
                 "Rebus air dengan daun salam.",
                 "Tambahkan asam jawa, kacang panjang, labu siam, dan jagung.",
                 "Masak hingga semua bahan empuk. Sajikan."
             ],
-            "history": "Sayur asam adalah masakan khas nusantara dengan rasa asam yang segar."
+            history: "Sayur asam adalah masakan khas nusantara dengan rasa asam yang segar.",
+            video: "https://www.youtube.com/watch?v=It1J25H5790"
         },
         {
-            "name": "Sayur Bayam",
-            "image": "images/sayur-bayam.jpg",
-            "ingredients": [
+            name: "Sayur Bayam",
+            image: "images/sayur-bayam.jpg",
+            ingredients: [
                 "1 ikat bayam",
                 "1 buah jagung manis, potong",
                 "2 siung bawang merah",
@@ -290,17 +303,18 @@ const recipes = [
                 "1 liter air",
                 "1 sendok teh garam"
             ],
-            "instructions": [
+            instructions: [
                 "Rebus air, masukkan bawang merah dan bawang putih.",
                 "Tambahkan jagung, masak hingga empuk.",
                 "Masukkan bayam dan garam, masak sebentar. Sajikan."
             ],
-            "history": "Sayur bayam adalah masakan tradisional Indonesia yang sehat dan segar."
+            history: "Sayur bayam adalah masakan tradisional Indonesia yang sehat dan segar.",
+            video: "https://www.youtube.com/watch?v=r0kJ_rWrPps"
         },
         {
-            "name": "Sayur Sop",
-            "image": "images/sayur-sop.jpg",
-            "ingredients": [
+            name: "Sayur Sop",
+            image: "images/sayur-sop.jpg",
+            ingredients: [
                 "100 gram wortel",
                 "100 gram kentang",
                 "50 gram kol",
@@ -309,17 +323,18 @@ const recipes = [
                 "1 liter air",
                 "1 sendok teh garam"
             ],
-            "instructions": [
+            instructions: [
                 "Rebus air, masukkan bawang putih hingga harum.",
                 "Tambahkan wortel, kentang, dan kol.",
                 "Masak hingga empuk, tambahkan garam dan seledri. Sajikan."
             ],
-            "history": "Sayur sop adalah hidangan berkuah yang ringan dan cocok untuk segala suasana."
+            history: "Sayur sop adalah hidangan berkuah yang ringan dan cocok untuk segala suasana.",
+            video: "https://www.youtube.com/watch?v=CZdeklbB7Us"
         },                        
         {
-            "name": "Seblak",
-            "image": "images/seblak.jpg",
-            "ingredients": [
+            name: "Seblak",
+            image: "images/seblak.jpg",
+            ingredients: [
                 "100 gram kerupuk mentah",
                 "2 butir telur",
                 "2 siung bawang putih",
@@ -330,7 +345,7 @@ const recipes = [
                 "50 gram bakso, potong",
                 "100 ml air"
             ],
-            "instructions": [
+            instructions: [
                 "Rendam kerupuk dengan air panas hingga lunak, tiriskan.",
                 "Haluskan bawang putih, cabai, dan kencur.",
                 "Panaskan minyak, tumis bumbu hingga harum.",
@@ -338,7 +353,8 @@ const recipes = [
                 "Tambahkan kerupuk, saus sambal, garam, dan air. Aduk hingga bumbu meresap.",
                 "Seblak siap disajikan dengan taburan bawang goreng."
             ],
-            "history": "Seblak berasal dari Jawa Barat, dikenal dengan cita rasa pedas dan gurih dari kencur serta bumbu khasnya."
+            history: "Seblak berasal dari Jawa Barat, dikenal dengan cita rasa pedas dan gurih dari kencur serta bumbu khasnya.",
+            video: "https://www.youtube.com/watch?v=jNaij7X2c2g"
         },        
         {
             name: "Soto Ayam",
@@ -362,29 +378,30 @@ const recipes = [
                 "Tuang bumbu tumis ke dalam kaldu ayam, masak hingga mendidih.",
                 "Sajikan soto dengan soun, kol, telur, dan ayam suwir, lalu siram kuah panas."
             ],
-            history: "Soto Ayam adalah salah satu kuliner khas Indonesia yang terkenal dengan kuahnya yang kaya rempah."
+            history: "Soto Ayam adalah salah satu kuliner khas Indonesia yang terkenal dengan kuahnya yang kaya rempah.",
+            video: "https://www.youtube.com/watch?v=LzrN5HReVvI"
         },
         {
-            "name": "Tumis Kangkung",
-            "image": "images/tumis-kangkung.jpeg",
-            "ingredients": [
+            name: "Tumis Kangkung",
+            image: "images/tumis-kangkung.jpeg",
+            ingredients: [
                 "2 ikat kangkung",
                 "2 siung bawang putih",
                 "2 buah cabai merah",
                 "1 sendok makan saus tiram",
                 "1/2 sendok teh garam"
             ],
-            "instructions": [
+            instructions: [
                 "Panaskan minyak, tumis bawang putih dan cabai hingga harum.",
                 "Masukkan kangkung, aduk hingga layu.",
                 "Tambahkan saus tiram dan garam, masak sebentar. Sajikan."
             ],
-            "history": "Tumis kangkung adalah masakan sehari-hari yang mudah dibuat dengan bahan sederhana."
+            history: "Tumis kangkung adalah masakan sehari-hari yang mudah dibuat dengan bahan sederhana.",
+            video: "https://www.youtube.com/watch?v=hevXi1zbKgI"
         }
         
       
 ];
-
 // Elemen DOM
 const recipeList = document.getElementById("recipes");
 const searchInput = document.getElementById("search");
@@ -394,19 +411,26 @@ const instructionList = document.getElementById("instruction-list");
 const recipeImg = document.getElementById("recipe-img");
 const recipeHistoryText = document.getElementById("recipe-history");
 
+// Placeholder untuk gambar resep
 recipeImg.src = "images/placeholder.jpg";
 
 // Fungsi untuk menampilkan daftar resep
 function displayRecipes(recipesToShow) {
-    recipeList.innerHTML = ""; // Reset list
-    recipesToShow.forEach((recipe, index) => {
+    recipeList.innerHTML = ""; // Reset daftar
+    if (recipesToShow.length === 0) {
+        // Jika tidak ada resep yang ditemukan
+        const noResults = document.createElement("li");
+        noResults.classList.add("list-group-item", "text-muted", "text-center");
+        noResults.textContent = "Resep yang Anda cari tidak tersedia.";
+        recipeList.appendChild(noResults);
+        return;
+    }
+    recipesToShow.forEach(recipe => {
         const li = document.createElement("li");
         li.classList.add("list-group-item");
         li.style.cursor = "pointer";
-        
-        // Menambahkan hanya nama resep ke dalam elemen list
         li.textContent = recipe.name;
-        
+
         // Event listener untuk menampilkan detail resep saat diklik
         li.addEventListener("click", () => showDetail(recipe));
         recipeList.appendChild(li);
@@ -422,7 +446,7 @@ function showDetail(recipe) {
     recipe.ingredients.forEach(ingredient => {
         const li = document.createElement("li");
         li.textContent = ingredient;
-        li.classList.add("list-group-item");  // Menambahkan kelas untuk styling
+        li.classList.add("list-group-item");
         ingredientList.appendChild(li);
     });
 
@@ -431,26 +455,34 @@ function showDetail(recipe) {
     recipe.instructions.forEach(instruction => {
         const li = document.createElement("li");
         li.textContent = instruction;
-        li.classList.add("list-group-item");  // Menambahkan kelas untuk styling
+        li.classList.add("list-group-item");
         instructionList.appendChild(li);
     });
 
     // Menampilkan gambar resep dan sejarah
     recipeImg.src = recipe.image;
     recipeHistoryText.textContent = recipe.history;
-}
 
+     // Perbarui link video tutorial
+     const videoLink = document.getElementById("video-link");
+     if (recipe.video) {
+         videoLink.href = recipe.video; // Set URL video
+         videoLink.style.display = "inline-block"; // Tampilkan elemen
+     } else {
+         videoLink.style.display = "none"; // Sembunyikan elemen jika tidak ada video
+     }
+}
 
 // Fungsi untuk menangani pencarian resep
 function searchRecipes() {
     const query = searchInput.value.toLowerCase();
-    const filteredRecipes = recipes.filter(recipe => 
+    const filteredRecipes = recipes.filter(recipe =>
         recipe.name.toLowerCase().includes(query)
     );
     displayRecipes(filteredRecipes);
 }
 
-// Menambahkan event listener pada search bar
+// Event listener untuk pencarian
 searchInput.addEventListener("input", searchRecipes);
 
 // Menampilkan semua resep ketika halaman dimuat
